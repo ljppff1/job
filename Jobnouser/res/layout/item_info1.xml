@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主界面的列表View -->
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+      android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+   android:padding="5dp"
+     >
+   
+                      <Button
+              android:id="@+id/mBTlistInfo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                       android:paddingRight="18dp"
+                         android:layout_centerVertical="true"
+               android:paddingLeft="18dp"
+               android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                 android:background="@drawable/button2"
+                android:textColor="@color/blue"
+                android:text="@string/look"
+                android:textSize="16sp" />
+                          <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+            android:textSize="16sp"   android:layout_centerVertical="true"
+             android:id="@+id/mTVInfoTitle"
+             android:text="asdfasdfasdfasdfasdfasdfasdfasdfasdf"
+             android:paddingRight="10dp"
+                android:paddingLeft="10dp" 
+            android:layout_toLeftOf="@id/mBTlistInfo2"
+            android:textColor="@color/black"
+            />
+               
+    </RelativeLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/white"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:layout_height="wrap_content" >
+    
+
+    <TextView
+        android:id="@+id/area2name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:text="应用程序名称"
+         	android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+      <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+       	android:layout_centerVertical="true"
+             android:padding="5dp"
+          >
+    <CheckBox
+        android:id="@+id/area2cb2"
+        android:clickable="false"
+        android:focusableInTouchMode="false"  
+        android:focusable="false"
+        android:layout_width="wrap_content"
+         android:paddingRight="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+      style="@style/CustomCheckboxTheme"
+       /></RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/icon_background"
+    android:id="@+id/mLlPubInfo1"
+    android:orientation="vertical" >
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+       >
+     <include 
+        layout="@layout/every_action_bar"
+        />        
+    </RelativeLayout>
+        <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+                 <Button
+                android:id="@+id/mRegsure"
+                style="@style/button"
+                android:text="@string/sure"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"         
+              />
+            
+    
+    
+      <com.webdesign488.post.view.MyScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:layout_above="@id/mRegsure"
+        
+                >
+    
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:orientation="vertical"
+           >
+
+           <TextView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/title_reg"
+               style="@style/title_1"
+               />
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/self"
+               style="@style/text_1"
+               />
+           <RelativeLayout 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               >
+               <RadioGroup
+        android:id="@+id/mRegRgoup"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/mRegradio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radio1"
+             style="@style/text_3" />
+
+        <RadioButton
+            android:id="@+id/mRegradio2"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio2" 
+             style="@style/text_3"/>
+
+        <RadioButton
+            android:id="@+id/mRegradio3"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio3"
+             style="@style/text_3" />
+    </RadioGroup>
+         </RelativeLayout>
+          <RelativeLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              >
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/name"
+               android:id="@+id/mTVregB1"
+               style="@style/text_1"
+               />
+           <TextView
+               android:textColor="@color/color_blue_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" *"
+                style="@style/text_1"
+               android:layout_toRightOf="@id/mTVregB1"
+                />
+           </RelativeLayout>
+            <EditText 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mRegName"
+                style="@style/edit_1"
+                />   
+                      
+                                <RelativeLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              >
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/tell"
+               android:id="@+id/mTVregB2"
+               style="@style/text_1"
+               />
+           <TextView
+               android:textColor="@color/color_blue_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" *"
+                style="@style/text_1"
+               android:layout_toRightOf="@id/mTVregB2"
+                />
+           </RelativeLayout>
+                      
+            <EditText 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mRegTell"
+                android:inputType="phone"
+                                style="@style/edit_1"
+                
+                />   
+                <RelativeLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              >
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/show"
+               android:id="@+id/mTVregB3"
+               style="@style/text_1"
+               />
+           <TextView
+               android:textColor="@color/color_blue_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" *"
+                style="@style/text_1"
+               android:layout_toRightOf="@id/mTVregB3"
+                />
+           </RelativeLayout>
+                                      
+            <EditText 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mRegShow"
+                                style="@style/edit_1"
+                 android:lines="3"
+                />   
+            
+            <RelativeLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              >
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/job1"
+               android:id="@+id/mTVregB4"
+               style="@style/text_1"
+               />
+           <TextView
+               android:textColor="@color/color_blue_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" *"
+                style="@style/text_1"
+               android:layout_toRightOf="@id/mTVregB4"
+                />
+           </RelativeLayout>
+                          
+            <EditText 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mRegjob1"
+                                style="@style/edit_2"
+                
+                android:focusable="false"
+                />   
+                                      <RelativeLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              >
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/job2"
+               android:id="@+id/mTVregB5"
+               style="@style/text_1"
+               />
+           <TextView
+               android:textColor="@color/color_blue_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" *"
+                style="@style/text_1"
+               android:layout_toRightOf="@id/mTVregB5"
+                />
+           </RelativeLayout>
+                          
+            <EditText 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mRegjob2"
+                                style="@style/edit_2"
+                
+                android:focusable="false"
+                />   
+                                                                                <RelativeLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              >
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/job3"
+               android:id="@+id/mTVregB6"
+               style="@style/text_1"
+               />
+           <TextView
+               android:textColor="@color/color_blue_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" *"
+                style="@style/text_1"
+               android:layout_toRightOf="@id/mTVregB6"
+                />
+           </RelativeLayout>
+                                          
+            <EditText 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mRegjob3"
+                android:focusable="false"
+                                style="@style/edit_2"
+                
+                />   
+         <RelativeLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              >
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/area1"
+               android:id="@+id/mTVregB7"
+               style="@style/text_1"
+               />
+           <TextView
+               android:textColor="@color/color_blue_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" *"
+                style="@style/text_1"
+               android:layout_toRightOf="@id/mTVregB7"
+                />
+           </RelativeLayout>
+                                                      
+            <EditText 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mRegarea1"
+                android:focusable="false"
+                                style="@style/edit_2"
+                
+                />   
+                         <RelativeLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              >
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/area2"
+               android:id="@+id/mTVregB8"
+               style="@style/text_1"
+               />
+           <TextView
+               android:textColor="@color/color_blue_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" *"
+                style="@style/text_1"
+               android:layout_toRightOf="@id/mTVregB8"
+                />
+           </RelativeLayout>
+            
+            <EditText 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mRegarea2"
+                android:focusable="false"
+                                style="@style/edit_2"
+                
+                />   
+             <RelativeLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              >
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/area3"
+               android:id="@+id/mTVregB9"
+               style="@style/text_1"
+               />
+           <TextView
+               android:textColor="@color/color_blue_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" *"
+                style="@style/text_1"
+               android:layout_toRightOf="@id/mTVregB9"
+                />
+           </RelativeLayout>
+                
+            <EditText 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mRegarea3"
+                                style="@style/edit_2"
+                
+                android:focusable="false"
+                />   
+                        
+            
+            
+            </LinearLayout>
+    
+    
+</com.webdesign488.post.view.MyScrollView>    
+                 
+                 
+    </RelativeLayout>
+</LinearLayout>

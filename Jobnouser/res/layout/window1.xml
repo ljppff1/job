@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#b0000000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:id="@+id/mLLRescueDialogpop"
+    android:background="@drawable/b1"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:padding="1dp"
+        android:layout_width="fill_parent"
+        android:text=" "
+        android:id="@+id/mTVw1Id"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/cancel"
+        />
+          <TextView 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/personinfo"
+          style="@style/text_4"
+          android:gravity="center_horizontal"
+             android:textColor="@color/black"
+          />  
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        >
+          
+     <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/name1"
+             android:id="@+id/mTVw1name1"
+                android:textColor="@color/black"
+             />
+                  <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/name"
+                          android:layout_marginLeft="10dp"
+             
+             android:background="@drawable/b4"
+                android:textColor="@color/black"
+             android:paddingLeft="10dp"
+             android:id="@+id/mTVw1name"
+             android:layout_toRightOf="@id/mTVw1name1"
+             />
+         
+     </RelativeLayout>      
+           <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+                android:textColor="@color/black"
+             android:text="@string/show4"
+             android:id="@+id/mTVw1show1"
+             />
+                  <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                android:textColor="@color/black"
+             android:paddingLeft="10dp"
+             android:minLines="3"
+             android:background="@drawable/b4"
+                          android:layout_marginLeft="10dp"
+             
+             android:paddingTop="3dp"
+             android:id="@+id/mTVw1show"
+             android:layout_toRightOf="@id/mTVw1show1"
+             />
+         
+     </RelativeLayout>   
+     
+           
+           
+                <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/addmain1"
+             android:id="@+id/addmain"
+                android:textColor="@color/black"
+             />
+                  <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+             
+             android:background="@drawable/b4"
+                android:textColor="@color/black"
+             android:paddingLeft="10dp"
+             android:id="@+id/mTvww1"
+             android:layout_toRightOf="@id/addmain"
+             />
+         
+     </RelativeLayout>      
+          
+                <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/addweixin1"
+             android:id="@+id/addweixin1"
+                android:textColor="@color/black"
+             />
+                  <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+             
+             android:background="@drawable/b4"
+                android:textColor="@color/black"
+             android:paddingLeft="10dp"
+             android:id="@+id/mTvww2"
+             android:layout_toRightOf="@id/addweixin1"
+             />
+         
+     </RelativeLayout>        
+           
+           
+              <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/addqq1"
+             android:id="@+id/addqq1"
+                android:textColor="@color/black"
+             />
+                  <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+             
+             android:background="@drawable/b4"
+                android:textColor="@color/black"
+             android:paddingLeft="10dp"
+             android:id="@+id/mTvww3"
+             android:layout_toRightOf="@id/addqq1"
+             />
+         
+     </RelativeLayout>        
+                   <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/addqqquent1"
+             android:id="@+id/addqqquent1"
+                android:textColor="@color/black"
+             />
+                  <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+             
+             android:background="@drawable/b4"
+                android:textColor="@color/black"
+             android:paddingLeft="10dp"
+             android:id="@+id/mTvww4"
+             android:layout_toRightOf="@id/addqqquent1"
+             />
+         
+     </RelativeLayout>   
+                              <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/addwhatapp1"
+             android:id="@+id/addwhatapp1"
+                android:textColor="@color/black"
+             />
+                  <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+             
+             android:background="@drawable/b4"
+                android:textColor="@color/black"
+             android:paddingLeft="10dp"
+             android:id="@+id/mTvww5"
+             android:layout_toRightOf="@id/addwhatapp1"
+             />
+         
+     </RelativeLayout>   
+                   
+           
+                </LinearLayout>
+    </ScrollView>
+           
+           
+           
+          <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+                 android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:paddingBottom="10dp"
+         >
+           
+              <TextView 
+             android:layout_width="wrap_content"
+                android:textColor="@color/black"
+             android:layout_height="wrap_content"
+             android:text="@string/tell1"
+             android:id="@+id/mTVw1tell1"
+             />
+                  <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/tell"
+             android:paddingLeft="10dp"
+                          android:layout_marginLeft="10dp"
+             android:background="@drawable/b4"
+                android:textColor="@color/black"
+             android:id="@+id/mTVw1tell"
+             android:layout_toRightOf="@id/mTVw1tell1"
+             />
+                <Button
+                android:id="@+id/mBTtell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               android:paddingRight="8dp"
+               android:layout_marginTop="8dp"
+               android:layout_centerInParent="true"
+               android:paddingLeft="8dp"
+               android:paddingTop="2dp"
+               android:layout_below="@id/mTVw1tell1"
+               android:paddingBottom="2dp"
+                android:background="@drawable/button2"
+                android:textColor="@color/blue"
+                android:text="@string/name8"
+                android:textSize="16sp" />
+                  
+         
+     </RelativeLayout>      
+              
+  
+     <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="8dp"
+         android:visibility="gone"
+         android:paddingBottom="8dp"
+         >
+    
+                               <Button
+                android:id="@+id/mBTtell3"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               android:paddingRight="8dp"
+               android:paddingLeft="8dp"
+               android:paddingTop="2dp"
+               android:paddingBottom="2dp"
+                android:background="@drawable/button2"
+                android:textColor="@color/blue"
+                android:text="@string/name2"
+                android:textSize="16sp" />
+                       <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/name4"
+             android:gravity="left"
+             android:layout_centerVertical="true"
+             android:layout_toLeftOf="@id/mBTtell3"
+             android:id="@+id/mTVshowtell"
+                android:textColor="@color/black"
+             />
+     </RelativeLayout>      
+             <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:gravity="center_horizontal"
+         android:layout_height="wrap_content"
+         android:paddingTop="8dp"
+         android:visibility="gone"
+         android:paddingBottom="8dp"
+         >
+                               <Button
+                android:id="@+id/mBTtell1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               android:paddingRight="8dp"
+               android:paddingLeft="8dp"
+               android:paddingTop="2dp"
+               android:paddingBottom="2dp"
+                android:background="@drawable/button2"
+                android:textColor="@color/blue"
+                android:text="@string/name3"
+                android:textSize="16sp" />
+              <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/name5"
+             android:paddingTop="10dp"
+             android:paddingLeft="15dp"
+             android:gravity="left"
+             android:id="@+id/mTVshowtell1"
+             android:layout_toRightOf="@id/mBTtell1"
+             android:textColor="@color/black"
+             />
+                               
+     </RelativeLayout>      
+     <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+         
+         >
+           
+              <TextView 
+             android:layout_width="wrap_content"
+                android:textColor="@color/black"
+             android:layout_height="wrap_content"
+             android:text="@string/time"
+             android:id="@+id/mTVw1time1"
+             />
+                  <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:paddingLeft="10dp"
+                android:textColor="@color/black"
+             android:id="@+id/mTVw1time"
+             android:layout_toRightOf="@id/mTVw1time1"
+             />
+         
+     </RelativeLayout>
+                  <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="16dp"
+         android:paddingBottom="16dp"
+                  android:gravity="center_horizontal"
+         
+         >
+             <Button
+                android:id="@+id/mBTgocancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                  android:paddingRight="8dp"
+               android:paddingLeft="8dp"
+               android:paddingTop="2dp"
+               android:paddingBottom="2dp"
+                android:background="@drawable/button2"
+                android:textColor="@color/blue"
+                android:text="@string/name6"
+                android:textSize="16sp" />
+                               <Button
+                android:id="@+id/mBTgocancel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                 android:paddingRight="8dp"
+               android:paddingLeft="8dp"
+               android:layout_marginLeft="20dp"
+               android:paddingTop="2dp"
+               android:paddingBottom="2dp"
+                android:layout_toRightOf="@id/mBTgocancel"
+                android:background="@drawable/button2"
+                android:textColor="@color/blue"
+                android:text="@string/name7"
+                android:textSize="16sp" />
+                  
+     </RelativeLayout>      
+             
+                
+          
+          
+   
+</LinearLayout>
+</RelativeLayout>

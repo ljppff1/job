@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="54dp">
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/mRLItemgrid1"
+        >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="asdfadf"
+        android:gravity="center"
+        android:id="@+id/mTVjob1"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+    </RelativeLayout>
+
+    
+</FrameLayout>

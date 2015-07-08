@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主界面的列表View -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="15dp" >
+    
+        <TextView 
+            android:text="asdfwaefawef"
+            android:id="@+id/mTVInfoTitle"
+            android:textSize="18sp"
+                        android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+           android:textColor="@color/black"
+           android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+        
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            
+            >
+              <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTVMyrevstatus"
+            android:text="asdf"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            />
+            
+          <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTVMyrevdate"
+                       android:textColor="@color/black"
+           
+            android:layout_toLeftOf="@id/mTVMyrevstatus"
+            android:text="d 4 3"
+            android:gravity="left"
+            />
+            
+            </RelativeLayout>
+    
+
+</LinearLayout>

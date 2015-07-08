@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aliceblue"
+    android:id="@+id/mLlPubInfo1"
+    android:orientation="vertical" >
+
+    
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+       >
+     <include 
+        layout="@layout/every_action_bar"
+        />        
+    </RelativeLayout>
+    
+    
+       <RelativeLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           >
+         <Button
+                android:id="@+id/mArea3sure"
+                style="@style/button"
+                android:text="@string/sure"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"         
+               />
+       
+           <TextView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/title_area1"
+               style="@style/title_1"
+               android:layout_alignParentTop="true"
+               android:id="@+id/mTVarea3"
+               />
+              
+            <ListView
+            android:id="@+id/mLvArea1"
+            android:layout_above="@id/mArea3sure"
+            android:layout_below="@id/mTVarea3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fastScrollEnabled="true" >
+        </ListView>
+           
+       </RelativeLayout>
+        
+    
+                    
+</LinearLayout>
